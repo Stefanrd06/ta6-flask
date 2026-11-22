@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block titulo %}Página no encontrada{% endblock %}
+
+{% block contenido %}
+<div class="tarjeta centrado">
+    <h2>Página no encontrada</h2>
+    <p>La página que buscas no existe.</p>
+    <a class="volver" href="{{ url_for('index') }}">Volver al menú</a>
+</div>
+{% endblock %}

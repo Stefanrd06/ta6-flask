@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 30px;
+}
+
+/* Menú principal */
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 120px;
+    margin-left: 30px;
+}
+
+.boton-menu {
+    display: block;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 12px 10px;
+    border-radius: 5px;
+    font-family: "Times New Roman", serif;
+    font-size: 17px;
+}
+
+.boton-menu:hover {
+    background-color: #0062cc;
+}
+
+/* Formularios */
+.tarjeta {
+    background-color: white;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+.tarjeta h2 {
+    margin-top: 10px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 12px;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.boton {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background-color: #0062cc;
+}
+
+.error {
+    color: #c0392b;
+}
+
+.volver {
+    display: inline-block;
+    margin-top: 15px;
+    color: #007bff;
+}
+
+/* Ejercicio 2 centrado como en el ejemplo */
+.centrado {
+    text-align: center;
+    font-family: "Times New Roman", serif;
+}
+
+.centrado label {
+    font-weight: normal;
+}
